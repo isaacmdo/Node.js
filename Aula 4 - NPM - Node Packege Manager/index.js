@@ -23,3 +23,10 @@
 //minor: ao realizando a mudança para uma mais atual a aplicação ainda vai funcionar
 //patch: aplicação continua funcionando com um patch mais recente
 
+//Para desinstalar um pacote utilizamos o comando: npm uninstall nomedopacote
+
+//Comando: npm ls, para listar todas as dependencias
+//Comando: npm ls, --depth=0, para listar apenas as dependencias que foram instaladas
+//Comando: npm outdated, para listar os pacotes que estão desatualizados
+
+
