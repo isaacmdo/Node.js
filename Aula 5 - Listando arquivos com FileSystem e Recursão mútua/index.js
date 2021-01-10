@@ -26,4 +26,4 @@ async function walk(files, rootDir) {
     console.log(fileFullPath);
   }
 }
-readdir('/Volumes/Storage Mac OS/Javascript do Básico ao Avançado + TypeScript');
+readdir('/media/luizotavio/Externo/JS/');
