@@ -26,8 +26,8 @@ app.get('/testes/:idUsuarios?', (req, res) => {
 });
 
 
-//o metodo body e o conteudo do que é postado, neste codigo so temos um input, então o metodo body retornará so ele,
-//se quisermos acessar apenas um input especifico enviado, utilizamos no caso req.body.outroinput.
+//O metodo body e o conteudo do que é postado, neste codigo so temos um input, então o metodo body retornará so ele em formato de objeto,
+//se quisermos acessar apenas o valor de um input especifico enviado, utilizamos no caso req.body.outroinput.
 app.post('/', (req, res) => {
   console.log(req.body.nome);
   res.send('Recebi o formulário');
